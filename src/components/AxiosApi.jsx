@@ -26,7 +26,7 @@ import axios from "axios";
   return (
     <div>
       <h1>Fetching Pokemon</h1>
-      {/* <button onClick={getPoke1}>Fetch WITH await</button> */}
+      {/* <button onClick={getPoke1}>Fetch with await</button> */}
       <button onClick={axiosPokemon}>Fetch with AXIOS</button>
       {pokemon && pokemon.map((poke,id)=>{
         return(
